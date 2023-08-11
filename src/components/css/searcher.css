@@ -1,0 +1,55 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    left: 1200px;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+}
+.searchInput{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 10px;
+   
+    top: 5px;
+}
+h2{
+    text-align: center;
+    padding-left: 20px;
+}
+p{
+    padding-left: 5px;
+    width: 200px;
+}
+.filterSections{
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    
+    inset: 0;
+    bottom: 655px;
+    left: 1040px;
+    top: 55px;
+}
+
+.toggle{
+    width: 165px;
+    text-align: start;
+    border: 1px solid #333;
+    height: 35px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.searchMain{
+    width: 400px;
+}
+.announce{
+    position: absolute;
+    top: 70px;
+    right: -10px;
+}

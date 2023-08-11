@@ -1,0 +1,59 @@
+
+
+
+.updateMainContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: grid;
+    position: fixed;
+    z-index: 10;
+}
+.icon{
+    font-size: 25px;
+    color: whitesmoke;
+    position: absolute;
+    right:20px;
+    top: 20px;
+    cursor: pointer;
+}
+.updateContainer{
+    width: 800px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customerData{
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+    overflow: hidden;
+    overflow-x: scroll;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    padding: 40px 0px 40px 40px;
+}
+.updateInput{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.updateBoxes{
+    width: 300px;
+}
+.updateButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

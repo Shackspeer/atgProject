@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap');
+*{
+  font-family: 'Sunflower', sans-serif;
+}
+.listMethods{
+  padding-left: 15px;
+  text-align: start;
+  font-weight: 500;
+}
+.listMethods:hover{
+  cursor: pointer;
+}
+.headerCol:nth-child(1){
+  width: 5vw;
+}
+
+.headerCol:nth-child(2){
+  width: 13vw;
+}
+.headerCol:nth-child(3){
+  width: 40vw;
+}
+.headerCol:nth-child(4){
+  width: 20vw;
+}
+.headerCol:nth-child(5){
+  width: 30vw;
+}
+
+.uploadButton{
+  position: absolute;
+  top: 52.5px;
+  left: 50px;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
